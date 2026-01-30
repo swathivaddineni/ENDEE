@@ -1,0 +1,7 @@
+numpy
+pypdf2
+python-dotenv
+requests
+sentence-transformers
+streamlit
+tqdm
