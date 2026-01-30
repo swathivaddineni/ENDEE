@@ -1,0 +1,13 @@
+
+### Create `.gitignore` (Important for GitHub)
+Create file:
+
+`.gitignore`
+
+venv/
+.venv/
+__pycache__/
+.env
+local_db/
+*.pyc
+.DS_Store
