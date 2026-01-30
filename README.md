@@ -129,7 +129,7 @@ http://localhost:8508
 ##  Screenshots
 
 ###  Home Screen
-![home](assets/screenshots/<img width="1903" height="1023" alt="homepage" src="https://github.com/user-attachments/assets/cd6a8c2c-3644-4520-af15-d7671275576f" />)
+![Home page](assets/screenshots/<img width="1903" height="1023" alt="homepage" src="https://github.com/user-attachments/assets/cd6a8c2c-3644-4520-af15-d7671275576f" />)
 
 
 ###  Document Indexed Successfully
