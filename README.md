@@ -124,5 +124,47 @@ App will open at:
 
 http://localhost:8508
 
+---
+
+##  Screenshots
+
+###  Home Screen
+![home](assets/screenshots/<img width="1903" height="1023" alt="homepage" src="https://github.com/user-attachments/assets/cd6a8c2c-3644-4520-af15-d7671275576f" />)
+
+
+###  Document Indexed Successfully
+![Indexing](assets/screenshots/<img width="372" height="591" alt="indexing" src="https://github.com/user-attachments/assets/b2c9efc5-2107-447c-a8fd-bf034fb95b68" />)
+
+
+### Question Answering + Retrieved Context
+![Q&A](assets/screenshots/<img width="1498" height="911" alt="mainpage" src="https://github.com/user-attachments/assets/a23139b2-0367-4344-aa71-54b9da30cdeb" />)
+
+
+
+##  Architecture Diagram
+
+User Upload (PDF/TXT)
+        │
+        ▼
+Text Extraction + Cleaning
+        │
+        ▼
+Chunking (overlap chunks)
+        │
+        ▼
+Embeddings (SentenceTransformers)
+        │
+        ▼
+Endee Vector DB (Local Storage)
+        │
+        ▼
+Query Embedding + Similarity Search
+        │
+        ▼
+Top-K Retrieved Context
+        │
+        ▼
+Answer Display in Streamlit UI
+
 
 
